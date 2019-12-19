@@ -17,11 +17,11 @@ For the editing of the activated DHCPCDs, start by opening the configuration fil
 
 Modify the static server addresses:
 
-`
+```sh
 interface usb0
 static ip_address=192.168.42.111/24
 static routers=192.168.42.1
-`
+```
 
 ## I'd like to move ssh to a different port. For some reason I'm having trouble doing this... I ran
 Code: Select all
