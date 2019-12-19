@@ -29,3 +29,7 @@ Code: Select all
 `sudo nano /etc/ssh/sshd_config`
 
 Uncomment port and set it to `22222`
+
+Download fwd (Port fowarding app):
+configuration:
+![fwd](fwd.jpg)
