@@ -10,6 +10,8 @@ This is more of a bank of knowledge for me to recreate this project should anyth
 
 Derived from lightorgan.c which is used to control GPIO pins with midi playback in ALSA.  The source and instructions are available at: http://chivalrytimberz.wordpress.com/2012/12/03/pi-lights/
 
+# Compilation
+`gcc -lwiringPi -lasound -g -Wall lightorgan8.c`
 
 lightorgan8.c  - Modified to use 1st eight pitch of scale rather than approximating across the entire 12 pitch scale.
 
