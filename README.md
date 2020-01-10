@@ -1,7 +1,6 @@
 # lights.midi.action
 A simple midi playback program which outputs midi to GPIO ports using timidity and alsa audio playback! 
 
-lightsequence  working but instructions are not yet complete.
 =============
 
 Code to toggle relays via RasPi GPIO using Midi input
