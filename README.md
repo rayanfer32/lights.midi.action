@@ -96,7 +96,6 @@ static routers=192.168.42.1
 ```
 
 ## I'd like to move ssh to a different port. For some reason I'm having trouble doing this... I ran
-Code: Select all
 
 `sudo nano /etc/ssh/sshd_config`
 
@@ -104,7 +103,7 @@ Uncomment port and set it to `22222`
 
 Download fwd (Port fowarding app):
 configuration:
-![fwd](fwd.jpg | width=100)
+![fwd](fwd.jpg)
 
 
 ### my pi0 didnot have wifi module inbulit so i had to go through all this stuff!
